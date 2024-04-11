@@ -6,8 +6,8 @@
 
 # Explicitly allow the kadence-child theme directory, by
 # first allowing wp-content, then themes, but ignoring everything else
-!wp-content/
-wp-content/*
-!wp-content/themes/
-wp-content/themes/*
-!wp-content/themes/kadence-child/
+!app/public/wp-content/
+app/public/wp-content/*
+!app/public/wp-content/themes/
+app/public/wp-content/themes/*
+!app/publicwp-content/themes/kadence-child/
