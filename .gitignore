@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Allow .gitignore to be seen by Git
+!.gitignore
+
+# Explicitly allow the kadence-child theme directory, by
+# first allowing wp-content, then themes, but ignoring everything else
+!wp-content/
+wp-content/*
+!wp-content/themes/
+wp-content/themes/*
+!wp-content/themes/kadence-child/
